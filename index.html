@@ -1,91 +1,178 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-<style>
-  /* Estilos CSS para que la imagen cubra toda la pagina */
-  boby, html {
-    margin: 0; 
-    padding: 0;
-    height: 100;
-  }
+  <!-- Meta información de la página -->
+  <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración para la adaptabilidad en dispositivos móviles -->
+  <meta name="description" content="Blog sobre Ingeniería de Software y Datos, tecnología y más."> <!-- Descripción del contenido de la página para motores de búsqueda -->
 
-  boby{
-    background-image:
-    url('https://viaplaceholder.com/1920x1080');/*
-    Enlace a la imagen que cubre toda la pagina */
-    background-size: cover;
-    background-position-x: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-   
-  .contenido{
-    background-color: rgba(0,0,0,0.6);/*
-    Fondo semitransparente para que el texto sea 
-    lejible*/
-    padding: 20px;
-    margin: 50px;
-    border-radius:10px;
- }
-  
- h1, h2, p {
-  text-align: center;
- }
+  <title>Blog - Ingeniería de Software y Datos</title> <!-- Título de la página que aparece en la pestaña del navegador -->
 
- a {
-  color: rgba(240, 248, 255, 0.87);
-  text-decoration:none;
-}
-</style>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Enlace al archivo CSS de Bootstrap para estilos prediseñados -->
+
+  <!-- Font Awesome CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> <!-- Enlace a Font Awesome para usar iconos -->
+
+  <!-- Enlace al archivo CSS externo -->
+  <link href="styles.css" rel="stylesheet"> <!-- Enlace a un archivo CSS externo para estilos personalizados -->
 </head>
 <body>
-  <div cass="contenido">
-    <h1>INGENIERIA DE SOFTWARE Y DATOS</h1>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Blog de Ingeniería de Software y Datos</a> <!-- Marca de la barra de navegación con el nombre del blog -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span> <!-- Icono del botón para menú desplegable en pantallas pequeñas -->
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <!-- Elementos de navegación -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio</a> <!-- Enlace a la página de inicio -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Categorías</a> <!-- Enlace a la sección de categorías -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre mí</a> <!-- Enlace a la sección 'Sobre mí' -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a> <!-- Enlace a la sección de contacto -->
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <h2>introducion al hardware</h2>
-    <p>
-     El hardware es la parte fisica de un sistema informatico.
-     Influye todos los componentes eletronicos y mecanicos que 
-     forman una computadora y sus perifericos, como la CPU (procesador),
-     la memoria RAM,el disco duro, la placa base, la targeta grafica, Y
-     dispositivos externos como teclados, ratones e impresoras. En resumen,
-     el hardware es la infraestructura tangible que permite el funcionamiento
-      del software y la ejecusion de tareas en un sistema informatico.</p>
-     
-  <p>LAS PIONERAS DE LA COMPUTACION</p>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Barra Lateral -->
+      <aside class="col-md-3 sidebar">
+        <section>
+          <h2>Categorías</h2> <!-- Título de la sección de categorías -->
+          <ul class="list-unstyled">
+            <li><a href="#">Categoría 1</a></li> <!-- Enlace a una categoría -->
+            <li><a href="#">Categoría 2</a></li> <!-- Enlace a otra categoría -->
+            <li><a href="#">Categoría 3</a></li> <!-- Enlace a una categoría más -->
+          </ul>
+        </section>
 
-  <P>De los temas abordados en clase me a yamado mucho la atencion,
-    "las pioneras de la computacion" ya que estas mujeres an marcado
-     un antes y un despues en el mundo de la tecnologia, aun que en 
-     la epoca las mujeres no eran reconocidas por su trabajo, lo 
-     consideraban un trabajo secretarial y eran bistas como operadoras 
-     o calculadoras humanas. Muchas a pesar de sus logros fueron innoradas 
-     y no tubieron el debido reconocimiento.</P>
-       
-    <p> Tales como Ada Lovelice que en (1815-1852) fue conciderada 
-      la primera programadora de la historia trabajo con Charles Babbage
-      en la maquina analitica, una computadora mecanica temprana.
-      Escribio un algoridmo para esta maquina, lo que la combierte en 
-      la primera mujer en realizar adgoridmo. Grase Hoper(1906-1992): Fue
-      una pionera, en  lenguajes de programacion. Hedy Lamarr (1914-2000):
-      Aunque mas conocida como actriz de hollywood. Lamarr tambien fue 
-      una inventora  junto con George Antheil, desarrollo una tecnica de
-       salto de frecuencia para la trasmicion de señales que sento las bases 
-       para las tecnologias de comunicaciones modernas como el Wi-Fi y el 
-       Bluetoth.
-    </p>
+        <!-- Sección 'Sobre mí' -->
+        <section class="about-me">
+          <h2>Sobre mí</h2> <!-- Título de la sección 'Sobre mí' -->
+          <div class="profile-picture">
+            <img src="/img/Angie.jpg" alt="Foto de Angie Estefanía" class="img-fluid rounded-circle"> <!-- Imagen de perfil con clase para redondear y ajustar tamaño -->
+          </div>
+          <p>
+            Angie Estefanía Florez Salazar. Tengo 18 años y vivo en el municipio de Urrao, Antioquia.
+            Me encanta la tecnología y esta es mi primera página web.
+          </p>
+        </section>
+      </aside>
 
-    <p> Angie Estefania Florez Salasar </p>
-    <P> Tengo 17 años y vivo en el municipio de urrao antioquia</P>
-    <p>Me encanta la tecnologia y esta es mi primera pagina web</p>
+      <!-- Contenido Principal -->
+      <main class="col-md-9 blog-container">
+        <!-- Entrada del Blog 1 -->
+        <article class="blog-entry">
+          <h1>Ingeniería de Software</h1> <!-- Título principal de la entrada -->
+          <div class="image-container">
+            <img src="/img/git.jpg" alt="Que es GIT" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+          </div>  
+          <section class="entry-content">
+            <h2>Qué es GIT</h2> <!-- Subtítulo dentro de la entrada -->
+            <p>
+              Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+            </p>
 
-    <h2>Enlace a google</h2>
-    <p>Visita <a 
-    href="https://www.google.com"
-     target="_blank">Gogle</a> para mas informacion.</p>
-       </div>
-      </body>
+            <h4>Pasos para Obtener git:</h4> <!-- Subtítulo para la lista de pasos -->
+            <ol>
+              <li>Ir a la página de git</li> <!-- Paso 1 -->
+              <img src="/img/1.jpg" alt="Paso1" class="img-fluid"> <!-- Imagen asociada al paso 1 -->
+              <li>Descargar GIT</li> <!-- Paso 2 -->
+              <img src="/img/2.jpg" alt="Paso2" class="img-fluid"> <!-- Imagen asociada al paso 2 -->
+              <li>Instalar Git</li> <!-- Paso 3 -->
+              <img src="/img/3.jpg" alt="Paso3" class="img-fluid"> <!-- Imagen asociada al paso 3 -->
+            </ol>
+          </section>
+        </article>
+
+        <!-- Entrada del Blog 2 -->
+        <article class="blog-entry">
+          <h1>Ingeniería de Software y Datos</h1> <!-- Título principal de la entrada -->
+          <div class="image-container">
+            <img src="/img/ingenieria datos.jpg" alt="Imagen de Ingeniería de Software" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+          </div>  
+          <section class="entry-content">
+            <h2>Introducción al Hardware</h2> <!-- Subtítulo dentro de la entrada -->
+            <p>
+              El hardware es la parte física de un sistema informático.
+              Influye en todos los componentes electrónicos y mecánicos que 
+              forman una computadora y sus periféricos, como la CPU (procesador),
+              la memoria RAM, el disco duro, la placa base, la tarjeta gráfica, y
+              dispositivos externos como teclados, ratones e impresoras. En resumen,
+              el hardware es la infraestructura tangible que permite el funcionamiento
+              del software y la ejecución de tareas en un sistema informático.
+            </p>
+          </section>
+        </article>
+
+        <!-- Entrada del Blog 3 -->
+        <article class="blog-entry">
+          <h2>Las Pioneras de la Computación</h2> <!-- Título principal de la entrada -->
+          <div class="image-container">
+            <img src="/img/pioneras.jpg" alt="Imagen de Pioneras de la Computación" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+          </div>
+          <section class="entry-content">
+            <p>
+              De los temas abordados en clase me ha llamado mucho la atención,
+              "las pioneras de la computación" ya que estas mujeres han marcado
+              un antes y un después en el mundo de la tecnología, aunque en 
+              la época las mujeres no eran reconocidas por su trabajo, lo 
+              consideraban un trabajo secretarial y eran vistas como operadoras 
+              o calculadoras humanas. Muchas, a pesar de sus logros, fueron ignoradas 
+              y no tuvieron el debido reconocimiento.
+            </p>
+
+            <p>
+              Tales como Ada Lovelace que en (1815-1852) fue considerada 
+              la primera programadora de la historia. Trabajó con Charles Babbage
+              en la máquina analítica, una computadora mecánica temprana.
+              Escribió un algoritmo para esta máquina, lo que la convierte en 
+              la primera mujer en realizar un algoritmo. Grace Hopper (1906-1992): Fue
+              una pionera en lenguajes de programación. Hedy Lamarr (1914-2000):
+              Aunque más conocida como actriz de Hollywood, Lamarr también fue 
+              una inventora junto con George Antheil. Desarrollaron una técnica de
+              salto de frecuencia para la transmisión de señales que sentó las bases 
+              para las tecnologías de comunicaciones modernas como el Wi-Fi y el 
+              Bluetooth.
+            </p>
+          </section>
+        </article>
+
+        <!-- Entrada del Blog 4 -->
+        <article class="blog-entry">
+          <h2>Enlace a Google</h2> <!-- Título principal de la entrada -->
+          <p>Visita <a href="https://www.google.com" target="_blank">Google</a> para más información.</p> <!-- Enlace a Google en una nueva pestaña -->
+        </article>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="blog-footer bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Angie Estefanía Florez Salazar - Blog de Ingeniería de Software y Datos</p> <!-- Texto de copyright en el footer -->
+    <div class="social-icons">
+      <!-- Iconos de redes sociales con enlaces -->
+      <a href="https://www.facebook.com/tu-perfil" target="_blank" class="text-white"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/tu-perfil" target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/tu-perfil" target="_blank" class="text-white"><i class="fab fa-github"></i></a>
+      <a href="https://www.youtube.com/c/tu-canal" target="_blank" class="text-white"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS y dependencias (Popper.js y jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- jQuery para funcionalidades de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script> <!-- Popper.js para manejar los popovers y tooltips de Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Archivo JS de Bootstrap para las funcionalidades de la barra de navegación y otros componentes -->
+</body>
 </html>
