@@ -1,0 +1,64 @@
+C:\Users\Estefania\index.html:
+    5:   <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+   12:   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Enlace al archivo CSS de Bootstrap para estilos prediseñados -->
+   24:     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   27:     <div class="collapse navbar-collapse" id="navbarNav">
+   34:           <a class="nav-link" href="#">Categorías</a> <!-- Enlace a la sección de categorías -->
+   37:           <a class="nav-link" href="#">Sobre mí</a> <!-- Enlace a la sección 'Sobre mí' -->
+   40:           <a class="nav-link" href="#">Contacto</a> <!-- Enlace a la sección de contacto -->
+   50:         <section>
+   51:           <h2>Categorías</h2> <!-- Título de la sección de categorías -->
+   57:         </section>
+   59:         <!-- Sección 'Sobre mí' -->
+   60:         <section class="about-me">
+   61:           <h2>Sobre mí</h2> <!-- Título de la sección 'Sobre mí' -->
+   63:             <img src="/img/Angie.jpg" alt="Foto de Angie Estefanía" class="img-fluid rounded-circle"> <!-- Imagen de perfil con clase para redondear y ajustar tamaño -->
+   69:         </section>
+   78:             <img src="/img/git.jpg" alt="Que es GIT" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+   80:           <section class="entry-content">
+   83:               Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+   95:           </section>
+  102:             <img src="/img/ingenieria datos.jpg" alt="Imagen de Ingeniería de Software" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+  104:           <section class="entry-content">
+  110:               la memoria RAM, el disco duro, la placa base, la tarjeta gráfica, y
+  115:           </section>
+  122:             <img src="/img/pioneras.jpg" alt="Imagen de Pioneras de la Computación" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+  124:           <section class="entry-content">
+  126:               De los temas abordados en clase me ha llamado mucho la atención,
+  130:               consideraban un trabajo secretarial y eran vistas como operadoras 
+  144:               salto de frecuencia para la transmisión de señales que sentó las bases 
+  148:           </section>
+
+C:\Users\Estefania\Release Notes:
+    5:   <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+   12:   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Enlace al archivo CSS de Bootstrap para estilos prediseñados -->
+   24:     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   27:     <div class="collapse navbar-collapse" id="navbarNav">
+   34:           <a class="nav-link" href="#">Categorías</a> <!-- Enlace a la sección de categorías -->
+   37:           <a class="nav-link" href="#">Sobre mí</a> <!-- Enlace a la sección 'Sobre mí' -->
+   40:           <a class="nav-link" href="#">Contacto</a> <!-- Enlace a la sección de contacto -->
+   50:         <section>
+   51:           <h2>Categorías</h2> <!-- Título de la sección de categorías -->
+   57:         </section>
+   59:         <!-- Sección 'Sobre mí' -->
+   60:         <section class="about-me">
+   61:           <h2>Sobre mí</h2> <!-- Título de la sección 'Sobre mí' -->
+   63:             <img src="/img/Angie.jpg" alt="Foto de Angie Estefanía" class="img-fluid rounded-circle"> <!-- Imagen de perfil con clase para redondear y ajustar tamaño -->
+   69:         </section>
+   78:             <img src="/img/git.jpg" alt="Que es GIT" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+   80:           <section class="entry-content">
+   83:               Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+   95:           </section>
+  102:             <img src="/img/ingenieria datos.jpg" alt="Imagen de Ingeniería de Software" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+  104:           <section class="entry-content">
+  110:               la memoria RAM, el disco duro, la placa base, la tarjeta gráfica, y
+  115:           </section>
+  122:             <img src="/img/pioneras.jpg" alt="Imagen de Pioneras de la Computación" class="img-fluid"> <!-- Imagen de la entrada con clase para ajustar el tamaño -->
+  124:           <section class="entry-content">
+  126:               De los temas abordados en clase me ha llamado mucho la atención,
+  130:               consideraban un trabajo secretarial y eran vistas como operadoras 
+  144:               salto de frecuencia para la transmisión de señales que sentó las bases 
+  148:           </section>
+
+C:\Users\Estefania\Untitled-1.html:
+  4:     <meta charset="UTF-8">
